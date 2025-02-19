@@ -1,14 +1,24 @@
 ---
 layout: home
-title: Welcome to My Course Diary
+title: Diário de Bordo - Computação UDF
 ---
 
-# 📚 My Learning Journey
+# 📚 Minha Jornada Acadêmica
 
-Welcome to my daily course diary! Here I document my progress, insights, and learnings in Computer Science.
+Bem-vindo ao meu diário de bordo do curso de Ciência da Computação! Aqui documento meu progresso diário, insights e aprendizados.
 
-## Latest Entries
+## Disciplinas Atuais
 
-Find my most recent posts below. Each entry captures what I learned, challenges faced, and key takeaways.
+- Cálculo 1
+- Sistemas Cliente-Servidor
+- Programação Orientada a Objetos
+- Estrutura de Dados
+- Banco de Dados
+
+## Recursos e Links
+
+- [Material de Apoio](/recursos)
+- [Projetos](/projetos)
+- [Cronograma](/cronograma)
 
 ---
