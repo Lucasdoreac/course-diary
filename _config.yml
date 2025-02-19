@@ -1,21 +1,18 @@
-title: My Course Diary
-description: Daily insights and progress in my computer science journey
+title: Diário de Bordo - Ciência da Computação UDF
+description: Acompanhamento diário das aulas e aprendizados no curso de Computação
 theme: minima
+language: pt-BR
 
-permalinks:
-  posts: /:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
 
-authors:
-  lucas:
-    name: Lucas
-    display_name: Lucas
-    email: your.email@example.com
-    web: https://github.com/Lucasdoreac
-
-default_author: lucas
+author:
+  name: Lucas
+  email: your.email@example.com
 
 markdown: kramdown
 highlighter: rouge
+
+github_username: Lucasdoreac
 
 plugins:
   - jekyll-feed
