@@ -1,0 +1,84 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Custom styles
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #24292e;
+}
+
+.post-meta {
+  color: #586069;
+  font-size: 14px;
+}
+
+.post-link {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0366d6;
+  &:hover {
+    text-decoration: none;
+    color: #035fc7;
+  }
+}
+
+.post-header {
+  margin-bottom: 30px;
+}
+
+.post-title {
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+// Add styling for code blocks
+pre, code {
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+// Style for topics tags
+.topic-tag {
+  display: inline-block;
+  padding: 4px 8px;
+  margin: 2px;
+  background-color: #f1f8ff;
+  border-radius: 3px;
+  color: #0366d6;
+  font-size: 12px;
+}
+
+// Progress section styling
+.progress-section {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f6f8fa;
+  border-radius: 6px;
+  
+  h3 {
+    margin-top: 0;
+    color: #24292e;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #e1e4e8;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 8px 0;
+    
+    .progress {
+      background-color: #2ea44f;
+      height: 20px;
+      border-radius: 3px;
+      transition: width 0.3s ease;
+    }
+  }
+}
